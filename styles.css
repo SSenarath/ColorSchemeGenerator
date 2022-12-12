@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    max-height: 550px;
+    height: 550px;
     max-width: 550px;
     margin: auto;
 }
@@ -51,9 +51,8 @@ section {
 }
 
 .color-box{
-    max-width: 110px;
-    height: 460px;
-    min-height: 200px;
+    height:400px;
+    max-width: 20%;
     display: flex;
 }
 
