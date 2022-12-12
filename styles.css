@@ -1,5 +1,6 @@
 body {
     background: rgb(0, 0, 0);
+    font-size: 80%;
 
 }
 
@@ -16,6 +17,7 @@ header {
     padding: 0px 15px;
     align-items: center;
     justify-content: space-between;
+    gap: 5px;
 }
 
 input {
