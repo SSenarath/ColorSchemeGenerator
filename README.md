@@ -11,7 +11,6 @@ I initially chose to take on this project, because I thought it would help me pr
     * [Requirements](#requirements)
     * [Screenshots](#screenshots)
 * [Next Steps](#next-steps)
-* [Useful Resources](#useful-resources)
 * [Author](#author)
 
 ## Demo
