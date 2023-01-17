@@ -26,14 +26,14 @@ I initially chose to take on this project, because I thought it would help me pr
 ## Overview
 ### Requirements
 - [x] Allow user to choose seed color(hex, rgb, hsl).
--	[x] Allow user to choose from the following modes :
-      o	Monochrome
-      o	Monochrome-dark
-      o	Monochrome-light
-      o	Analogic
-      o	Analogic-complement
-      o	Triad
-      o	Quad
+- [x] Allow user to choose from the following modes :
+    *	Monochrome
+    *	Monochrome-dark
+    *	Monochrome-light
+    *	Analogic
+    *	Analogic-complement
+    *	Triad
+    *	Quad
 
 ### Screenshots
 **How to Use:**
@@ -49,5 +49,5 @@ I initially chose to take on this project, because I thought it would help me pr
 
 ## Author
 * Portfolio Website - [Sanduni Senarath](https://ssenarath.github.io/portfolio-website/)
-* LinkedIn - [www.linkedin.com/in/ssenarath](www.linkedin.com/in/ssenarath)
+* LinkedIn - [www.linkedin.com/in/ssenarath](https://www.linkedin.com/in/ssenarath)
 * Github - [@ssenarath](https://github.com/SSenarath)
