@@ -9,7 +9,7 @@ let modeValue = ''
 
 // set hex and mode value 
 function selectSettings() {
-
+    
     dropDown.addEventListener('change',(event) => {
         modeValue = event.target.value
         modeValue = modeValue.toLowerCase()
@@ -20,7 +20,17 @@ function selectSettings() {
         hexValue = hexValue.slice(1).toUpperCase()
     })   
 
+    if(!hexValue){
+        hexValue = "F55A5A"
+    }
+    
+    if (!modeValue){
+        modeValue = "monochrome"
+        console.log(modeValue)
+    }
+
 }
+
 
 function renderColors(data){
     let html = ''
@@ -39,16 +49,20 @@ function renderColors(data){
 
 // initiate website look and settings
 
-selectSettings()
 fetch(`https://www.thecolorapi.com/scheme?hex=F55A5A&mode=monochrome&count=5`)
     .then(res => res.json())
     .then(data => renderColors(data))
 
 
+selectSettings()
+
 
 // get color values after user picks color and mode
 
+
 document.getElementById('result-btn').addEventListener('click',() => {
+    console.log(hexValue)
+    console.log(modeValue)
     fetch(`https://www.thecolorapi.com/scheme?hex=${hexValue}&mode=${modeValue}&count=5`)
     .then(res => res.json())
     .then(data => renderColors(data))
