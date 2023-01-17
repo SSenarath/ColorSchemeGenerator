@@ -1,6 +1,6 @@
 # Colour Scheme Generator
 
-A webpage application that allows a user to generate a color scheme given a seed color and a mode. This was an optional solo project from [Scrimba’s Frontend Developer Career Path] (https://scrimba.com/learn/frontend).
+A webpage application that allows users to generate colour schemes given a seed color and a mode. This was an optional solo project from [Scrimba’s Frontend Developer Career Path] (https://scrimba.com/learn/frontend).
 
 I initially chose to take on this project, because I thought it would help me practice fetching from APIs – which it did. However, I did not anticipate that this would become one of my most used applications as I use it regularly to create colour schemes for new projects. 
 
